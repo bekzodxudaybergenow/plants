@@ -1,3 +1,57 @@
+:root {
+  --CRAYOLAS-MAIZE: #F1C84C;
+  --GRAY: #818181;
+  --RICH-BLACK: #081323;
+  --BLACK: #000;
+  --WHITE: #fff;
+  --PLATINUM: #E5E7E6;
+  --QUICK-SILVER: #A1A1A1;
+  --MUGHAL-GREEN: #2F5128;
+  --GRANITE-GRAY: #636363;
+  --OLD-SILVER: #828282;
+  --ARGENT: #C1C1C1;
+  --YELLOW-ORANGE: #F8B335;
+  --poppins: "Poppins", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
+  --playfair:"Playfair Display", serif;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/Playfair/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/Playfair/PlayfairDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 *,
 *::before,
 *::after {
