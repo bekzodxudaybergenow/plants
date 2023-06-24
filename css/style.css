@@ -409,11 +409,11 @@
   height: 490px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
-  color: var(--WHITE);
+  background-position: left;
   position: relative;
   border-radius: 60px;
-  transition: ease-in-out 1s;
+  color: var(--WHITE);
+  cursor: pointer;
 }
 .show-list-item:hover .show-item-content {
   display: block;
